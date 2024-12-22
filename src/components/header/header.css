@@ -1,0 +1,13 @@
+.header-gradient {
+  background: linear-gradient(90deg, rgba(187, 0, 255, 0) 67.07%, #5c007d),
+    radial-gradient(
+      53.19% 100% at 3.17% 0,
+      rgba(0, 195, 255, 0.6) 0,
+      rgba(0, 191, 255, 0) 100%
+    ),
+    #003a80;
+}
+
+.header-action {
+  @apply transition-all hover:scale-110 p-2 box-content;
+}

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*:focus {
+  outline: 2px solid #ff680a; /* Колір рамки (зелений) */
+  outline-offset: 4px; /* Відступ від елемента */
+  border-radius: 4px; /* Скруглені кути */
+  box-shadow: 0 0 6px #ff680a; /* Тінь для підсилення ефекту */
+}
